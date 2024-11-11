@@ -1,0 +1,121 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*-------------------------------------
+                GERAL
+--------------------------------------*/
+html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: calc(15px + 0.390625vw);
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+/*-------------------------------------
+                HEADER
+--------------------------------------*/
+header {
+    background-color: #3B8686;
+    padding: 40px 9vw;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul {
+    display: flex;
+}
+header nav ul li {
+    margin: 0 5vw 0 0;
+}
+header nav ul li span {
+    background-color: #c4c4cc44;
+    padding: 5px 25px;
+    border-radius: 30PX;
+}
+/*-------------------------------------
+                CONTEUDO    
+--------------------------------------*/
+section.banner {
+    padding: 30vw 9vw 7vw 9vw;
+    background: linear-gradient(rgba(121, 189, 154, 0.2),rgba(121, 189, 154, 0.2)), url(../images/back-banner.png) no-repeat center center;
+    background-size: cover;
+}
+section.banner h2 {
+    font-size: 3rem;
+    color: #FFFFFF;
+    background-color: rgba(59, 134, 134, 0.5);
+    width: 45%;
+}
+section.servico ul{
+    padding: 10vw 9vw 10vw 9vw;
+    display: flex;
+}
+section.servico ul li {
+    text-align: center;
+}
+section.servico ul li span {
+    font-size: 3.2rem;
+    color: #3B8686;
+}
+section.servico ul li h3 {
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin: 2vw 0 ;
+}
+section.servico ul li p {
+    color: #747474;
+    font-size: 0.7rem;
+    margin: 0 6vw 2vw 6vw;
+}
+section.servico ul li a {
+    background-color: #3B8686;
+    padding: 10px 30px;
+    font-size: 0.8rem;
+}
