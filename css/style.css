@@ -119,3 +119,81 @@ section.servico ul li a {
     padding: 10px 30px;
     font-size: 0.8rem;
 }
+section.informacoes {
+    padding: 6vw 9vw 6vw 9vw;
+    background: linear-gradient(rgba(121, 189, 154, 0.5),rgba(121, 189, 154, 0.5)), url(../images/back-numeros.png) no-repeat center center;
+    background-size: cover;
+}
+section.informacoes ul {
+    display: flex;
+    justify-content: space-between;
+}
+section.informacoes ul li{
+    text-align: center;
+    margin: 0vw 2vw;
+}
+section.informacoes ul li span {
+    color: white;
+    font-size: 3.5rem;
+}
+section.informacoes ul li p{
+    color: white;
+    font-size: 2.2rem;
+    margin: 1vw 0vw;
+    font-weight: 600;
+}
+section.atv {
+    padding: 9vw;
+    display: flex;
+}
+section.atv div {
+    margin: 0 5vw;
+}
+section.atv div h2 {
+    font-size: 2rem;
+    color: #0B486B;
+}
+section.atv div p.text {
+    font-size: 0.7rem;
+    color: #747474;
+    margin: 2vw 0 2vw 0;
+    line-height: 1.2rem;
+}
+section.atv div p a.dois {
+    background-color: #0B486B;
+    padding: 15px 17px;
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+section.atv div p a.dois {
+    margin:0 1vw ;
+}
+section.atv div p a.um {
+    background-color: #0B486B;
+    padding: 15px 35px;
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+footer{
+    background-color: #3B8686;
+    padding: 3vw 15vw 1vw 15vw;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+}
+footer div.icone ul {
+    display: flex;
+    margin: 0 0 2vw 0;
+}
+footer div.icone ul li {
+    margin: 0 1vw 0 0;
+    font-size: 2rem;
+}
+footer div.cntt p.txt {
+    margin: 10px 0;
+}
+footer div.list ul li {
+    margin: 1vw 0;
+    text-align: right;
+}
